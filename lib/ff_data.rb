@@ -1,5 +1,5 @@
 require "ff_data/version"
-require './initializer'
+require './ff_data/initializer'
 
 class FantasyData
     extend API::Request
