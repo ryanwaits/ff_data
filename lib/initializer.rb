@@ -1,3 +1,6 @@
 require 'httparty'
 require_relative 'api_request'
 require_relative 'extensions'
+require_relative 'game'
+require_relative 'player'
+require_relative 'team'
