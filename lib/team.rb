@@ -1,4 +1,4 @@
-require './initializer'
+require_relative 'initializer'
 
 class Team
     extend API::Request

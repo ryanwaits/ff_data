@@ -1,5 +1,5 @@
 require 'httparty'
-require './initializer'
+require_relative 'initializer'
 
 module API
   module Request
