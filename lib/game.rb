@@ -6,7 +6,6 @@ class Game
     # returns a box score for a particular team
     def self.box_score team, week
         data = request_service('BoxScore', [CoreExtensions::Fantasy::Date.regular_season, week, team])['Score']
-        # puts "#{data['AwayTeam']} vs. #{data['HomeTeam']}"
     end
 
     # returns all box scores
