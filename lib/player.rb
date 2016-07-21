@@ -8,8 +8,6 @@ class Player
         request_service('FantasyPlayers')
     end
 
-    ## TODO set week to default to current week without having to use parameter
-
     # returns players with injuries
     def self.injuries week
         request_service('Injuries', [CoreExtensions::Fantasy::Date.last_season, week])
